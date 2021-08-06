@@ -10,6 +10,8 @@ from flask import (
 	jsonify
 )
 from flask_sqlalchemy import SQLAlchemy
+
+# Login Manager
 from login_manager import APILoginManager
 from utils import login_required
 
@@ -56,3 +58,5 @@ if __name__ == "__main__":
 	db.create_all()
 	app.run(debug=True)
 ```
+
+**Note:** for educational purposes only
