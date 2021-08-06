@@ -1,5 +1,11 @@
 # API Login Manager
-An simple implentation of `flask_login`  (login_required)
+
+Here's a simple implementation of the `login_required` function
+for your flask api.
+
+Firstly, we'd a means of authentication and I'd be using
+`Authorization: Bearer Token` as my means of authorization and 
+`JWT` (JSON web token) to encrypt certain data or in this case create access tokens.
 
 Use Case
 
@@ -59,4 +65,4 @@ if __name__ == "__main__":
 	app.run(debug=True)
 ```
 
-**Note:** for educational purposes only
+**Note:** for educational purposes only!
