@@ -7,6 +7,8 @@ Firstly, we'd a means of authentication and I'd be using
 `Authorization: Bearer Token` as my means of authorization and 
 `JWT` (JSON web token) to encrypt certain data or in this case create access tokens.
 
+See blog post: [https://keosariel.github.io/2021/08/06/api-login-manager/](https://keosariel.github.io/2021/08/06/api-login-manager/)
+
 Use Case
 
 ```python
